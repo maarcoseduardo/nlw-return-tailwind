@@ -35,7 +35,7 @@ export function FeedbackContentStep({
     //   screenshot, comment
     // })
 
-    await api.post('/feedbacks', {
+    await api.post('/feedback', {
       type: feedbackType,
       comment,
       screenshot
